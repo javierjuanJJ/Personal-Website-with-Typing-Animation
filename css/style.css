@@ -21,7 +21,7 @@ nav{
     height: 80px;
     line-height: 80px;
     z-index: 111;
-    background-color: red;
+    background-color: #ffffff;
 }
 .logo{
     display: flex;
@@ -31,4 +31,22 @@ nav{
     letter-spacing: 3px;
     cursor: pointer;
     text-transform: uppercase;
+}
+b{
+    font-size: 70px;
+    color: #7f00ff;
+}
+.navItems{
+    display: flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px ;
+}
+.navItems li a{
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
 }
