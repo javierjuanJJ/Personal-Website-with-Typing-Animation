@@ -29,7 +29,7 @@
                 <span class="topline">
                     Hellow
                 </span>
-                <h1>I am <span class="multiText">Coder</span> </h1>
+                <h1>I am <span class="multiText"></span> </h1>
                 <p>Paragraph</p>
                 <div class="btns">
                     <button>download CV</button>
@@ -47,6 +47,15 @@
 
 
     </div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js"></script>
+<script>
+    var typingEffect = new Typed(".multiText",{
+        strings: ["coder", "youtuber","designer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500
+    });
+</script>
 </body>
 </html>
